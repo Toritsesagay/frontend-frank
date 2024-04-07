@@ -694,6 +694,7 @@ export const verifyPhone = (data) => {
   }
 }
 
+
 export const registeration = (data) => {
   return async (dispatch, getState) => {
     //do some check on the server if its actually login before proceding to dispatch
